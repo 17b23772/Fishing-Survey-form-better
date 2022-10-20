@@ -4,8 +4,11 @@ body{
 }
 h1 {
   font-size: 40px;
-  margin-top: 0;
+  margin-top: -10px;
   margin-bottom: 15px;
+}
+.description{
+  font-style: italic;
 }
 .background {
   background-image: url('https://wallpaperaccess.com/full/3444015.png');
@@ -16,22 +19,23 @@ h1 {
   background-size: cover;
   padding-bottom: 100px;
 }
-h1, h2, p{
+h1, h2{
   text-align: center;
 }
 p{
-  font-style: italic;
+  text-align: center;
 }
 .pform {
   text-align: start;
+  padding: auto;
 }
 .legend1{
   font-style: bold;
-  font-size: 15px;
+  font-size: 5px;
 }
 .legend2{
   font-style: bold;
-  font-size: 15px;
+  font-size: 5px;
 }
 .requests{
   font-style: bold;
