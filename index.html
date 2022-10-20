@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1 id="title">Welcome to Beach's Fishing </h1>
-    <p class="description">A survey form to collect information for the fishing day</p>
+    <p class="description" style="text-align: center;">A survey form to collect information for the fishing day</p>
     <h2 id="Survey form">Survey form to register</h2>
   <form id="survey-form">
     <div class="form">
@@ -16,11 +16,13 @@
       <p class="pform">Enter your full name</p>
       <label id="name-label"><input type="text" id="name" placeholder="Enter name" required> </label>
     </fieldset>
-    <fieldset class ="id1">
-      <label id="email-label"><input type="email" id="email" placeholder="Enter email" required> Enter your email</label>
+    <fieldset>
+      <p class="pform">Enter your email</p>
+      <label id="email-label"><input type="email" id="email" placeholder="Enter email" required> </label>
     </fieldset>
-    <fieldset class ="id1">
-      <label id="number-label">Enter your phone number<input type="number" id="number" placeholder="Enter Number" max="999999999999" min="1000000000" required>  </label>
+    <fieldset>
+      <p class="pform">Enter your phone number</p>
+      <label id="number-label"><input type="number" id="number" placeholder="Enter Number" max="999999999999" min="1000000000" required>  </label>
       </fieldset>
       <fieldset class ="id1">
       <label id="style-label"><select name="fishing type" type="dropdown" id="dropdown"> 
@@ -30,23 +32,37 @@
         </select> Enter your fishing style choice</label>
       </fieldset>
       <fieldset class ="id2">
-        <legend class="legend1"> How good would you say you are? </legend>
+        <legend class="legend1"> How proficient you say you are? </legend>
         <label id="radio-label"><input id="Professional" type="radio" name="Professional-Amateur" value="Professional" > Professional</label>
+        <br>
+        <br>
         <label id="radio-label"><input id="Mediocre" type="radio" name="Professional-Amateur" value="Mediocre" checked>Mediocre</label>
+        <br>
+        <br>
         <label id="radio-label"><input id="Amateur" type="radio" name="Professional-Amateur" value="Amateur" > Amateur</label>
+        <br>
         </fieldset>
-        <fieldset class ="id2">
+        <fieldset >
           <legend class="legend2"> What type of bait do you want to use? </legend>
           <label id="Bait"><input id="Gear" type="checkbox" name="C-Bait" checked value="Corn">Corn</label>
+          <br>
+          <br>
           <label id="Bait"><input id="Gear" type="checkbox" name="L-Bait" value="Live">Live</label>
+          <br>
+          <br>
           <label id="Bait"><input id="Gear" type="checkbox" name="M-Bait" value="Maggots">Maggots</label>
+          <br>
+          <br>
           <label id="Bait"><input id="Gear" type="checkbox" name="B-Bait" value="Bread">Bread</label>
+          <br>
           </fieldset>
-          <fieldset class ="id2">
+          <fieldset>
             <legend class="requests"> If you have any extra requirements / requests write them here</legend>
-          <textarea> </textarea>
+            <br>
+          <textarea style="width: 98%;"> </textarea>
+            <br>
           </fieldset>
-          <input type="submit" value="Submit" id="submit">
+          <input class="Submit" type="submit" value="Submit" id="submit">
     </form>
     </body> 
   </html>

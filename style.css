@@ -22,25 +22,7 @@ h1 {
 h1, h2{
   text-align: center;
 }
-p{
-  text-align: center;
-}
-.pform {
-  text-align: start;
-  padding: auto;
-}
-.legend1{
-  font-style: bold;
-  font-size: 5px;
-}
-.legend2{
-  font-style: bold;
-  font-size: 5px;
-}
-.requests{
-  font-style: bold;
-  font-size: 15px;
-}
+
 .form {
   width: 80%;
   background-color: #c1fbef;
@@ -49,13 +31,8 @@ p{
   padding: 20px;
   max-width: 500px;
 }
-.id1{
-  padding:25px;
-}
-id2{
-  padding: 25px;
-}
-input{
+
+.Submit{
   width: 100%;
   padding-left: -5px;
   padding-right: -25px;
