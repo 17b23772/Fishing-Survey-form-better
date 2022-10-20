@@ -1,0 +1,51 @@
+ Need to add lake background 
+ submit button should be one at end not constant
+<!DOCTYPE html>
+<html lang="en">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <div class=background>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form </h1>
+    <p id="description">A survey form to collect information for the fishing competition</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label"><input type="text" id="name" placeholder="Enter name" required> Enter your full name </label>
+    </fieldset>
+    <fieldset>
+      <label id="email-label"><input type="email" id="email" placeholder="Enter email" required> Enter your email</label>
+    </fieldset>
+    <fieldset>
+      <label id="number-label"><input type="number" id="number" placeholder="Enter Number" max="999999999999" min="1000000000" required> Enter your phone number </label>
+      </fieldset>
+      <fieldset>
+      <label id="style-label"><select name="fishing type" type="dropdown" id="dropdown"> 
+        <option>Competition fishing </option>
+        <option>Open fishing </option>
+        <option>Spectating </option>
+        </select> Enter your fishing style choice</label>
+      </fieldset>
+      <fieldset>
+        <legend> How good would you say you are? </legend>
+        <label id="radio-label"><input id="Professional" type="radio" name="Professional-Amateur" value="indoor" > Professional</label>
+        <label id="radio-label"><input id="Amateur" type="radio" name="Professional-Amateur" value="indoor" checked> Amateur</label>
+        <label id="radio-label"><input id="Mediocre" type="radio" name="Professional-Amateur" value="indoor" > Mediocre</label>
+        </fieldset>
+        <fieldset>
+          <legend> What type of bait do you want to use? </legend>
+          <label id="Bait"><input id="Gear" type="checkbox" name="C-Bait" checked value="Corn">Corn</label>
+          <label id="Bait"><input id="Gear" type="checkbox" name="L-Bait" value="Live">Live</label>
+          <label id="Bait"><input id="Gear" type="checkbox" name="M-Bait" value="Maggots">Maggots</label>
+          <label id="Bait"><input id="Gear" type="checkbox" name="B-Bait" value="Bread">Bread</label>
+          </fieldset>
+          <fieldset>
+            <legend> If you have any extra requirements / requests write them here</legend>
+          <textarea> </textarea>
+          </fieldset>
+          <input type="submit" value="Submit" id="submit">
+    </form>
+    </body> 
+  </html>
