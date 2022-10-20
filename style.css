@@ -38,3 +38,12 @@ h1, h2{
   padding-right: -25px;
   text-align: centre;
 }
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 50px;
+}
