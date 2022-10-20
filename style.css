@@ -1,4 +1,59 @@
-html, body {
-  height: 100%;
+body{
+  font-family: sans-serif;
+  padding: 20px;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.background {
+  background-image: url('https://wallpaperaccess.com/full/3444015.png');
+
+  height: 100%; 
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+h1, h2, p{
+  text-align: center;
+}
+p{
+  font-style: italic;
+}
+.pform {
+  text-align: start;
+}
+.legend1{
+  font-style: bold;
+  font-size: 15px;
+}
+.legend2{
+  font-style: bold;
+  font-size: 15px;
+}
+.requests{
+  font-style: bold;
+  font-size: 15px;
+}
+.form {
+  width: 80%;
+  background-color: #c1fbef;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+.id1{
+  padding:25px;
+}
+id2{
+  padding: 25px;
+}
+input{
   width: 100%;
+  padding-left: -5px;
+  padding-right: -25px;
+  text-align: centre;
 }
